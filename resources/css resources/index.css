@@ -1,0 +1,29 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    font-size: 20px;
+    border: 2px solid black;
+    color: white;
+    background-color: blue;
+}
+
+td {
+    /* font-size 15px; */
+    border: 1px solid black;
+}
+
+cite {
+    text-align: center;
+}
