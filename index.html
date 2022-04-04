@@ -8,28 +8,63 @@
         <!-- Title of page-->
         <h1>Web Dev Cheat Sheet</h1>
 
-        <h2>CSS Display Property</h2>
+        <h2 id="display-property-title">CSS Display Property</h2>
 
-        <table>
+        <table class="display-property">
           <!-- Categories of CSS property-->
           <tr>
-            <th>CSS Syntax</th>
-            <th>Value</th>
-            <th>Description</th>
+            <th id="display-property-head">Value</th>
+            <th id="display-property-head">Description</th>
           </tr>
           <!--Dispalay property with values and description-->
           <tr>
-            <td>display: inline;</td>
             <td>inline</td>
             <td>Displays an element as an inline element (like <span>). Any height and width properties will have no effect.</td>
           </tr>
           <tr>
-            <td>display: block;</td>
             <td>block</td>
             <td>Displays an element as a block element (like &lt;p&gt;). It starts on a new line, and takes up the whole width.</td>
-          </tr>  
+          </tr>
+          <tr>
+            <td>contents</td>
+            <td>Makes the container disappear, making the child elements children of the element the next level up in the DOM</td>
+          </tr>
+          <tr>
+            <td>flex</td>
+            <td>Displays an element as a block-level flex container.</td>
+          </tr>     
         </table>
-        
-        <cite>https://www.w3schools.com/cssref/pr_class_display.asp</cite>
+
+        <!-- Position Property Title -->
+        <h2 id="position-property-title">CSS Position Property</h2>
+
+        <!--Position Property Table-->
+        <table>
+          <tr>
+            <th id="position-property-head">Value</th>
+            <th id="position-property-head">Description</th>
+          </tr> 
+          <tr>
+            <td>clip</td>
+            <td>Clips an absolutely positioned element.</td>
+          </tr>
+          <tr>
+            <td>left</td>
+            <td>Sets the left margin edge for a positioned box.</td>
+          </tr>
+          <tr>
+            <td>right</td>
+            <td>Sets the right margin edge for a positioned box.</td>
+          </tr>
+          <tr>
+            <td>top</td>
+            <td>Sets the top margin edge for a positioned box.</td>
+          </tr>
+          <tr>
+            <td>bottom</td>
+            <td>	Sets the bottom margin edge for a positioned box.</td>
+          </tr>
+        </table>
+
     </body>
 </html>
