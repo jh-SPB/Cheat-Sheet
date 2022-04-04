@@ -40,12 +40,16 @@ table {
     border: 2px solid black;
     color: white;
     background-color: blue;
+    font-family: sans-serif;
+}
+
+#property-table{
+    font-family: 'Rubik Bubbles', sans-serif;
 }
 
 td {
     font-size: 15px; 
     border: 1px solid black;
-    font-family: fantasy;
 }
 
 cite {
